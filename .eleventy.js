@@ -27,7 +27,7 @@ module.exports = eleventyConfig => {
 
     return {
         dir: {
-            output: "docs",
+            output: "dist",
             input: "src"
         }
     }
