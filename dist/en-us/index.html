@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>i18n GetText Plugin for Eleventy</h1>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/en-us/">Home</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav navbar-right">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Select language
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="/fr-fr">Français</a><a class="dropdown-item" href="/nl-nl">Nederlands</a><a class="dropdown-item" href="/pt-pt">Português</a><a class="dropdown-item" href="/en-us">English</a></div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="jumbotron">
+  <h1>Fruits</h1>  
+</div><div class="card">
+  <div class="card-body">
+    <a href="/en-us/apple/">
+      <h4 class="card-title">Apple</h4>
+    </a>
+    <div class="card-text">
+      <div class="row">
+        <div class="col-5"><b>Template content</b></div>
+        <div class="col-7">Click on the fruit to see more details.</div>
+      </div>
+      <div class="row">
+        <div class="col-5"><b>Template content with text replacment</b></div>
+        <div class="col-7">The apple keeps the doctor away.</div>
+      </div>
+      <div class="row">
+        <div class="col-5"><b>Template content pluralized</b></div>
+        <div class="col-7">These fruits are excellent.</div>
+      </div>
+      <div class="row">
+        <div class="col-5"><b>Data content</b></div>
+        <div class="col-7">Green apple</div>
+      </div>
+      <div class="row">
+        <div class="col-5"><b>Data content pluralized with text replacment</b></div><div class="col-7">We currently have 3 green apples in stock.</div>
+      </div>
+    </div>
+  </div>
+</div><div class="card">
+  <div class="card-body">
+    <a href="/en-us/banana/">
+      <h4 class="card-title">Banana</h4>
+    </a>
+    <div class="card-text">
+      <div class="row">
+        <div class="col-5"><b>Template content</b></div>
+        <div class="col-7">Click on the fruit to see more details.</div>
+      </div>
+      <div class="row">
+        <div class="col-5"><b>Template content with text replacment</b></div>
+        <div class="col-7">The banana keeps the doctor away.</div>
+      </div>
+      <div class="row">
+        <div class="col-5"><b>Template content pluralized</b></div>
+        <div class="col-7">This fruit is excellent.</div>
+      </div>
+      <div class="row">
+        <div class="col-5"><b>Data content</b></div>
+        <div class="col-7">Yellow banana</div>
+      </div>
+      <div class="row">
+        <div class="col-5"><b>Data content pluralized with text replacment</b></div><div class="col-7">We currently have 1 yellow banana in stock.</div>
+      </div>
+    </div>
+  </div>
+</div><div class="jumbotron">
+  <h1>Dates and times</h1>  
+</div>
+
+<div class="card">
+  <div class="card-body">
+    <a target="_blank" href="https://momentjs.com/docs/#/displaying/format">
+      <h4 class="card-title">Moment.js localized formats</h4>
+    </a>
+    <div class="card-text"><div class="row">
+          <div class="col-1"><b>LT</b></div>
+          <div class="col-11">10:36 PM</div>
+        </div><div class="row">
+          <div class="col-1"><b>LTS</b></div>
+          <div class="col-11">10:36:41 PM</div>
+        </div><div class="row">
+          <div class="col-1"><b>L</b></div>
+          <div class="col-11">07/27/2020</div>
+        </div><div class="row">
+          <div class="col-1"><b>l</b></div>
+          <div class="col-11">7/27/2020</div>
+        </div><div class="row">
+          <div class="col-1"><b>LL</b></div>
+          <div class="col-11">July 27, 2020</div>
+        </div><div class="row">
+          <div class="col-1"><b>ll</b></div>
+          <div class="col-11">Jul 27, 2020</div>
+        </div><div class="row">
+          <div class="col-1"><b>LLL</b></div>
+          <div class="col-11">July 27, 2020 10:36 PM</div>
+        </div><div class="row">
+          <div class="col-1"><b>lll</b></div>
+          <div class="col-11">Jul 27, 2020 10:36 PM</div>
+        </div><div class="row">
+          <div class="col-1"><b>LLLL</b></div>
+          <div class="col-11">Monday, July 27, 2020 10:36 PM</div>
+        </div><div class="row">
+          <div class="col-1"><b>llll</b></div>
+          <div class="col-11">Mon, Jul 27, 2020 10:36 PM</div>
+        </div></div>
+  </div>
+</div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
