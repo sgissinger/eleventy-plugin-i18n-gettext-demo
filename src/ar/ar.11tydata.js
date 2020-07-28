@@ -3,5 +3,5 @@
 const i18n = require('eleventy-plugin-i18n-gettext')
 
 module.exports = () => {
-    return i18n.enhance11tydata({}, 'ar-ae', 'rtl')
+    return i18n.enhance11tydata({}, 'ar', 'rtl')
 }
