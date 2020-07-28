@@ -18,5 +18,10 @@
         "path": "en-us",
         "alpha2Code": "US",
         "name": "English"
+    },
+    {
+        "path": "ar-ae",
+        "alpha2Code": "US",
+        "name": "عربى"
     }
 ]
