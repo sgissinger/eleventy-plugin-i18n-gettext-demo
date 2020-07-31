@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-07-27 16:12+0200\n"
-"PO-Revision-Date: 2020-07-27 16:12+0200\n"
+"POT-Creation-Date: 2020-07-31 18:49+0200\n"
+"PO-Revision-Date: 2020-07-31 18:49+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_PT\n"
@@ -12,7 +12,7 @@ msgstr ""
 "X-Generator: Poedit 2.4\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-KeywordsList: _n:1,2\n"
+"X-Poedit-KeywordsList: _i;_n:1,2;_ni:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: data-messages.js:1
@@ -43,46 +43,64 @@ msgid_plural "Yellow bananas"
 msgstr[0] "Banana amarela"
 msgstr[1] "Bananas amarelas"
 
+#: data-messages.js:7
+msgid "Granny Smith"
+msgstr "Granny Smith"
+
+#: data-messages.js:8
+msgid "Cavendish"
+msgstr "Cavendish"
+
 #: messages.js:3
-msgid "Home"
-msgstr "Casa"
-
-#: messages.js:4
-msgid "Select language"
-msgstr "Selecione o idioma"
-
-#: messages.js:5
 msgid "Fruits"
 msgstr "Frutas"
 
-#: messages.js:6
+#: messages.js:4
 msgid "Click on the fruit to see more details."
 msgstr "Clique na fruta para ver mais detalhes."
 
-#: messages.js:7
+#: messages.js:5
 #, javascript-format
 msgid "The %s keeps the doctor away."
 msgstr "A %s mantém o médico afastado."
 
-#: messages.js:8
+#: messages.js:6
 #, javascript-format
 msgid "We currently have %d %s in stock."
 msgstr "Atualmente, temos %d %s em estoque."
 
-#: messages.js:9
+#: messages.js:7
+msgid "The ${name} keeps the doctor away (${count})."
+msgstr "A ${name} mantém o médico afastado (${count})."
+
+#: messages.js:8
 msgid "Dates and times"
 msgstr "Datas e horários"
 
-#: messages.js:10
+#: messages.js:9
 msgid "Moment.js localized formats"
 msgstr "Moment.js formatos localizados"
 
-#: messages.js:11
+#: messages.js:10
 msgid "This fruit is excellent."
 msgid_plural "These fruits are excellent."
 msgstr[0] "Esta fruta é excelente."
 msgstr[1] "Essas frutas são excelentes."
 
+#: messages.js:11
+msgid "This single fruit is excellent."
+msgid_plural "These ${count} fruits are excellent."
+msgstr[0] "Esta única fruta é excelente."
+msgstr[1] "Essas ${count} frutas são excelentes."
+
 #: messages.js:12
 msgid "i18n GetText Plugin for Eleventy"
 msgstr "i18n GetText Plugin para Eleventy"
+
+#: messages.js:13
+msgid "Home"
+msgstr "Casa"
+
+#: messages.js:14
+msgid "Select language"
+msgstr "Selecione o idioma"

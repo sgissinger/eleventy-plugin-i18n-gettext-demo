@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-07-28 10:48+0200\n"
-"PO-Revision-Date: 2020-07-28 10:49+0200\n"
+"POT-Creation-Date: 2020-07-31 18:48+0200\n"
+"PO-Revision-Date: 2020-07-31 18:48+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ar\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
-"X-Poedit-KeywordsList: _n:1,2\n"
+"X-Poedit-KeywordsList: _i;_n:1,2;_ni:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: data-messages.js:1
@@ -79,14 +79,18 @@ msgid "We currently have %d %s in stock."
 msgstr "لدينا حاليًا %d %s في المخزون."
 
 #: messages.js:7
+msgid "The ${name} keeps the doctor away (${count})."
+msgstr "${name} تبقي الطبيب بعيدا (${count})."
+
+#: messages.js:8
 msgid "Dates and times"
 msgstr "التواريخ والأوقات"
 
-#: messages.js:8
+#: messages.js:9
 msgid "Moment.js localized formats"
 msgstr "تنسيقات moment.js المترجمة"
 
-#: messages.js:9
+#: messages.js:10
 msgid "This fruit is excellent."
 msgid_plural "These fruits are excellent."
 msgstr[0] "هذه الفاكهة ممتازة."
@@ -96,14 +100,24 @@ msgstr[3] "هذه الفاكهة ممتازة."
 msgstr[4] "هذه الفاكهة ممتازة."
 msgstr[5] "هذه الفاكهة ممتازة."
 
-#: messages.js:10
+#: messages.js:11
+msgid "This single fruit is excellent."
+msgid_plural "These ${count} fruits are excellent."
+msgstr[0] "هذه الفاكهة ممتازة."
+msgstr[1] "هذه الفاكهة المفردة ممتازة."
+msgstr[2] "هذه الفاكهة ${count} ممتازة."
+msgstr[3] "هذه الفاكهة ${count} ممتازة."
+msgstr[4] "هذه الفاكهة ${count} ممتازة."
+msgstr[5] "هذه الفاكهة ${count} ممتازة."
+
+#: messages.js:12
 msgid "i18n GetText Plugin for Eleventy"
 msgstr "البرنامج المساعد i18n GetText لـ عشرون"
 
-#: messages.js:11
+#: messages.js:13
 msgid "Home"
 msgstr "الصفحة الرئيسية"
 
-#: messages.js:12
+#: messages.js:14
 msgid "Select language"
 msgstr "اختار اللغة"
