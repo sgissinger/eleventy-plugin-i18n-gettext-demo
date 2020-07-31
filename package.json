@@ -1,8 +1,8 @@
 {
   "name": "eleventy-plugin-i18n-gettext-demo",
   "version": "1.0.0",
-  "description": "TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project.",
-  "main": "index.js",
+  "description": "Demo project for eleventy-plugin-i18n-gettext.",
+  "main": ".eleventy.js",
   "scripts": {
     "predev": "rimraf dist",
     "dev": "eleventy --serve",
@@ -11,11 +11,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://commercestar@dev.azure.com/commercestar/alokal/_git/cs.alokal.jamstack"
+    "url": "https://github.com/sgissinger/eleventy-plugin-i18n-gettext-demo"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "eleventy",
+    "eleventy-plugin",
+    "11ty",
+    "i18n",
+    "gettext"
+  ],
+  "author": "Sebastien Gissinger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sgissinger/eleventy-plugin-i18n-gettext-demo/issues"
+  },
   "dependencies": {},
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
