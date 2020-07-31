@@ -3,16 +3,7 @@
 const i18n = require('eleventy-plugin-i18n-gettext')
 
 module.exports = eleventyConfig => {
-    eleventyConfig.addPlugin(i18n, {
-        localesDirectory: 'locales',
-        localesDomain: 'messages',
-        parserMode: 'po',
-        javascriptMessages: 'messages.js',
-        tokenFilePatterns: [
-            'src/**/*.njk',
-            'src/**/*.js'
-        ]
-    })
+    eleventyConfig.addPlugin(i18n)
 
     eleventyConfig.addPassthroughCopy("src/img")
 
