@@ -10,25 +10,23 @@
     <div class="container">
       <h1>{{ _('i18n GetText Plugin for Eleventy') }}</h1>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="collapse navbar-collapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="{{ _p('/') | url }}">{{ _('Home') }}</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav navbar-right">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                {{ _('Select language') }}
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                {%- for locale in locales -%}
-                  <a class="dropdown-item" href="{%- relocalizePath locale.path, page.url -%}">{{ locale.name }}</a>
-                {%- endfor -%}
-              </div>
-            </li>
-          </ul>
-        </div>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="{{ _p('/') | url }}">{{ _('Home') }}</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav navbar-right">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              {{ _('Select language') }}
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              {%- for locale in locales -%}
+                <a class="dropdown-item" href="{%- relocalizePath locale.path, page.url -%}">{{ locale.name }}</a>
+              {%- endfor -%}
+            </div>
+          </li>
+        </ul>
       </nav>
       {{ content | safe }}
     </div>
